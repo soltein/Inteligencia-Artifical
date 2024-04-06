@@ -70,4 +70,4 @@ imprimir_voos(melhor_solucao)
 #generic algorithm
 melhor_solucao, melhor_custo = mlrose.genetic_alg(problema, pop_size=500, mutation_prob=0.2)
 #print(melhor_solucao, melhor_custo)
-imprimir_voos(melhor_solucao)
+imprimir_voos(melhor_solucao) 
