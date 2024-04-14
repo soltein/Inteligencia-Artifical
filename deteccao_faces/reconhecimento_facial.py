@@ -32,7 +32,7 @@ lbph.write('classificadorLBPH.yml')
 reconhecedor = cv2.face.LBPHFaceRecognizer_create()
 reconhecedor.read('classificadorLBPH.yml')
 
-imagem_teste = 'deteccao_faces/yalefaces/test/subject05.surprised.gif'
+imagem_teste = 'deteccao_faces/yalefaces/test/subject11.glasses.gif'
 
 imagem = Image.open(imagem_teste).convert('L')
 imagem_np = np.array(imagem, 'uint8')
